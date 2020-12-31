@@ -1,0 +1,50 @@
+{
+  "resolve": {
+    "@jspm/core": "npm:@jspm/core@1.1.1",
+    "react": "npm:react@17.0.1",
+    "react-dom": "npm:react-dom@17.0.1",
+    "single-spa-react": "npm:single-spa-react@3.2.0"
+  },
+  "dependencies": {
+    "npm:@jspm/core@1.1.1": {
+      "source": "https://registry.npmjs.org/@jspm/core/-/core-1.1.1.tgz#sha512-5JjuDSzcxuxgzJ/+ynA7bcqZkI9CdDBERXOnDGdhphxNfmd4PkNl0RDE4hUH0+n8yEaz08Tdmjgxe7tlX3LmRA=="
+    },
+    "npm:js-tokens@4.0.0": {
+      "source": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+    },
+    "npm:loose-envify@1.4.0": {
+      "source": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz#sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "resolve": {
+        "js-tokens": "npm:js-tokens@4.0.0"
+      }
+    },
+    "npm:object-assign@4.1.1": {
+      "source": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+    },
+    "npm:react-dom@17.0.1": {
+      "source": "https://registry.npmjs.org/react-dom/-/react-dom-17.0.1.tgz#sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==",
+      "resolve": {
+        "loose-envify": "npm:loose-envify@1.4.0",
+        "object-assign": "npm:object-assign@4.1.1",
+        "scheduler": "npm:scheduler@0.20.1"
+      }
+    },
+    "npm:react@17.0.1": {
+      "source": "https://registry.npmjs.org/react/-/react-17.0.1.tgz#sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==",
+      "resolve": {
+        "loose-envify": "npm:loose-envify@1.4.0",
+        "object-assign": "npm:object-assign@4.1.1"
+      }
+    },
+    "npm:scheduler@0.20.1": {
+      "source": "https://registry.npmjs.org/scheduler/-/scheduler-0.20.1.tgz#sha512-LKTe+2xNJBNxu/QhHvDR14wUXHRQbVY5ZOYpOGWRzhydZUqrLb2JBvLPY7cAqFmqrWuDED0Mjk7013SZiOz6Bw==",
+      "resolve": {
+        "loose-envify": "npm:loose-envify@1.4.0",
+        "object-assign": "npm:object-assign@4.1.1"
+      }
+    },
+    "npm:single-spa-react@3.2.0": {
+      "source": "https://registry.npmjs.org/single-spa-react/-/single-spa-react-3.2.0.tgz#sha512-s8K7AuS26WvN9n81z1NBlnZIe/Hin423P8jYLuG/DCNTYo5JbJMS5+Cb/wQd4ikG6YqoedpV4cb7nAcxvlLyhg=="
+    }
+  }
+}
